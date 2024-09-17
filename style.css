@@ -1,0 +1,64 @@
+.hero-section {
+    background-image: url('img/achtergrond.jfif');
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+}
+.navbar {
+  background-color: green;
+}
+
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(73, 19, 19, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: left; 
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:green;
+  }
